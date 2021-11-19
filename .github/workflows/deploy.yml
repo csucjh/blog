@@ -12,11 +12,10 @@ jobs:
 
       - name: Install and Build
         run: |
-          npm install
-          npm run docs:build
+          npm run ci
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
           branch: gh-pages
-          folder: docs
+          folder: docs/.vuepress/dist/

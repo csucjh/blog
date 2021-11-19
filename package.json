@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "entry": "node ./scripts/prepare.js",
+    "ci": "npm install && npm run entry && npm run docs:build"
   },
   "author": "",
   "license": "ISC",
