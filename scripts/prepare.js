@@ -21,28 +21,18 @@ const run = () => {
             if (state.isDirectory()) {
                 var sub = readDir(filePath);
                 if (sub.length > 2) {
-                    let father =
-                        ` {
-                    text: '${name}',
-                    children: ${sub},
-                  } `
+                    let father = ` {  text: '${name}',  children: ${sub},  } `
                     res.push(father)
                 }
             } else if (state.isFile()) {
                 if (filePath.endsWith('.md')) {
                     let simpleName = name.split(".md")[0]
-                    res.push(
-                        ` {
-                            text: '${simpleName}',
-                            link: '${filePath.split('docs')[1]}',
-                          }`
-                    )
+                    res.push(`{ text: '${simpleName}', link: '${filePath.split('docs')[1]}', }`)
                 }
             }
         })
         return '[' + res + ']';
     }
-
 
     const template = getTemplate(readDir(root))
 	
