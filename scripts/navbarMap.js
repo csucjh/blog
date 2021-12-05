@@ -1,8 +1,10 @@
 const getMap = () => {
 
     return {
-        "linkedlist":"链表",
-        "array":"数组",
+        "a-tree":"树",
+        "b-linkedlist":"链表",
+        "c-array":"数组",
+        "d-sequence":"序列(串)",
         "other":"其他",
         "tools":"工具"
     }
