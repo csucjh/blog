@@ -5,7 +5,6 @@ const getMap = () => {
         "b-linkedlist":"链表",
         "c-array":"数组",
         "d-sequence":"序列(串)",
-        "other":"其他",
         "tools":"工具"
     }
 }
