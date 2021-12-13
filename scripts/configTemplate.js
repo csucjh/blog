@@ -7,6 +7,7 @@ module.exports = {
     lang: 'zh-CN',
     title: "小菜变大鸟's 博客",
     theme: path.resolve(__dirname, './theme'),
+    head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
     themeConfig: {
           navbar: [
             ${navbar},
