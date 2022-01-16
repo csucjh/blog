@@ -1,0 +1,1 @@
+const e={key:"v-6eb80a68",path:"/a-tree/",title:"",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"\u6811",slug:"\u6811",children:[{level:3,title:"\u4E8C\u53C9\u6811",slug:"\u4E8C\u53C9\u6811",children:[]}]}],git:{updatedTime:1642350563e3,contributors:[{name:"csucjh",email:"csucjh@163.com",commits:1}]},filePathRelative:"a-tree/README.md"};export{e as data};
